@@ -22,8 +22,8 @@ npm test
 
 - Code: `src/missingNumbers.js`
 - Tests: `tests/missingNumbers.test.js`
-- Time complexity: O(n^2) debido al uso de la función `includes()` dentro de un bucle.
-- Space completixy: O(n) donde n es la longitud de la lista de entrada.
+- Time complexity: O(n^2) due to the use of the `includes` function within a loop.
+- Space completixy: O(n) where n is the length of the input list.
 
 ```javascript
 // missingNumbers.js
@@ -54,8 +54,8 @@ test('find missing numbers in the array', () => {
 2. **twoSum**: Given a list of integers and an integer target, this function returns the indices of two numbers that sum to that target. It assumes that there is exactly one solution and that the same element cannot be used twice.
 - Code: `src/twoSum.js`
 - Tests: `tests/missingNumbers.test.js`
-- Time completixy: O(n) debido a que solo se recorre la lista una vez.
-- Space complexity: O(n) porque utilizamos un mapa para almacenar los elementos y sus indices.
+- Time completixy: O(n) where n is the length of the input list. This is because we iterate through the list once.
+- Space complexity: O(n) where n is the length of the input list. We store each number and its index in an object as we iterate through the list.
 
 ```javascript
 // twoSum.js
